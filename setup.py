@@ -45,6 +45,7 @@ setup(
     python_requires='==2.7.*',
     install_requires=[
         'setuptools',
+        'Products.ATContentTypes',
         'plone.app.multilingual',
         'collective.monkeypatcher',
     ],
