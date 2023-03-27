@@ -40,5 +40,5 @@ class addFormATIsATranslationViewlet(ViewletBase):
                 #     query = {'TranslationGroup': tg, 'Language': 'all'}
                 #     results = ptool.searchResults(query)
                 #     self.origin = results
-        catch:
+        except:
             return
